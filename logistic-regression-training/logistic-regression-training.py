@@ -17,9 +17,6 @@ def train_logistic_regression(X, y, lr=0.1, steps=1000):
     Return (w, b).
     """
     # Write code here
-    X = np.array(X)
-    y = np.array(y)
-    
     n, d = X.shape
     w = np.random.randn(d) * 1e-2
     b = 1e-10
